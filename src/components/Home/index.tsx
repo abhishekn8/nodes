@@ -58,7 +58,7 @@ const Home: React.FC = () => {
 
             {isUploading && <p>Uploading...</p>}
             {!isUploading && jsonData ? (
-                <div className='h-[50vh] border py-6'>
+                <div className='h-screen border'>
                     <Tree
                         data={orgChart}
                         pathFunc={straightPathFunc}
